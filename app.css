@@ -89,6 +89,7 @@ input[type="text"] {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  z-index: 2;
 }
 
 .alert-content > header {
@@ -150,6 +151,7 @@ input[type="text"] {
   position: absolute;
   top: 70px;
   right: 16px;
+  z-index: 2;
 }
 
 .menu-group {
@@ -170,6 +172,7 @@ input[type="text"] {
   border: none;
   border-radius: 8px;
   background-color: #fff;
+  color: #323232
 }
 
 #menu-brand-name {
@@ -226,9 +229,10 @@ main {
   padding: 6px 12px;
   border-radius: 6px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background: #fff;
+  background-color: #fff;
   box-shadow: 0px -1px 0px 0px #b5b5b5 inset;
   font-weight: 600;
+  color: #323232;
 }
 
 #trial-dismiss-btn {
@@ -393,6 +397,7 @@ progress::-webkit-progress-value {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: #f7f7f7;
   box-shadow: 0px -1px 0px 0px #b5b5b5 inset;
+  color: #323232
 }
 
 #alert-icon:hover,
