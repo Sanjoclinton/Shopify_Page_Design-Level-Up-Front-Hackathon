@@ -251,12 +251,12 @@ main {
   background-color: white;
   border: none;
   border-radius: 6px;
+  align-self: flex-start;
 }
 
 #setup-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 progress {
