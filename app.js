@@ -212,7 +212,7 @@ menuItems.forEach(function (menuItem, index) {
 // This dismisses the trial offer when clicked
 dismissBtn.addEventListener("click", function () {
   trialWrapper.classList.add("d-none");
-  tiralContent.setAttribute("aria-hidden", "true");
+  trialContent.setAttribute("aria-hidden", "true");
 });
 
 // When the arrow up is clicked it toggles the guide content
